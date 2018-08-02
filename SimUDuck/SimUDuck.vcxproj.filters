@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\DuckBehavior">
+      <UniqueIdentifier>{7bbb0158-0cef-41af-b72f-7bc8a588c4ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DuckBehavior\Flying">
+      <UniqueIdentifier>{2b97a697-90fb-411e-9179-83a38a5443b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DuckBehavior\Quacking">
+      <UniqueIdentifier>{e4a3d542-2109-42b4-b94a-1358aebe6465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ducks">
+      <UniqueIdentifier>{26e9e82d-41d7-42f9-aed8-d7ee897edbb9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\DuckBehavior\Flying\FlyNoWay.h">
+      <Filter>Source Files\DuckBehavior\Flying</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DuckBehavior\Flying\FlyWithWings.h">
+      <Filter>Source Files\DuckBehavior\Flying</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DuckBehavior\Flying\iFlyBehavior.h">
+      <Filter>Source Files\DuckBehavior\Flying</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DuckBehavior\Quacking\iQuackBehavior.h">
+      <Filter>Source Files\DuckBehavior\Quacking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DuckBehavior\Quacking\MuteQuack.h">
+      <Filter>Source Files\DuckBehavior\Quacking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DuckBehavior\Quacking\Quack.h">
+      <Filter>Source Files\DuckBehavior\Quacking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DuckBehavior\Quacking\Squeak.h">
+      <Filter>Source Files\DuckBehavior\Quacking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ducks\Duck.h">
+      <Filter>Source Files\Ducks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ducks\MallardDuck.h">
+      <Filter>Source Files\Ducks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ducks\ModelDuck.h">
+      <Filter>Source Files\Ducks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DuckBehavior\Flying\FlyRocketPowered.h">
+      <Filter>Source Files\DuckBehavior\Flying</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SimUDuck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DuckBehavior\Flying\FlyNoWay.cpp">
+      <Filter>Source Files\DuckBehavior\Flying</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DuckBehavior\Flying\FlyWithWings.cpp">
+      <Filter>Source Files\DuckBehavior\Flying</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DuckBehavior\Quacking\MuteQuack.cpp">
+      <Filter>Source Files\DuckBehavior\Quacking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DuckBehavior\Quacking\Quack.cpp">
+      <Filter>Source Files\DuckBehavior\Quacking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DuckBehavior\Quacking\Squeak.cpp">
+      <Filter>Source Files\DuckBehavior\Quacking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ducks\Duck.cpp">
+      <Filter>Source Files\Ducks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ducks\MallardDuck.cpp">
+      <Filter>Source Files\Ducks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ducks\ModelDuck.cpp">
+      <Filter>Source Files\Ducks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DuckBehavior\Flying\FlyRocketPowered.cpp">
+      <Filter>Source Files\DuckBehavior\Flying</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
